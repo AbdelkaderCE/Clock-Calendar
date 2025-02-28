@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right bottom, #7b91b1, #789cc0, #72a7cf, #69b2dd, #5cbee9);
+    /*flex-direction: column;*/
+}
+.calendar {
+    background: white;
+    width: 300px;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+}
+.month {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px;
+    background: black;
+    color: aliceblue;
+}
+.weekdays, .year {
+    font-size: 22px;
+    margin: 15px 0;
+    color: #999;
+}
+.day {
+    font-size: 80px;
+    font-weight: 700;
+}
+#toggleCalendar , #toggleClock {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.clock{
+    background: white;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    overflow: hidden;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
